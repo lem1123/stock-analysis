@@ -9,16 +9,16 @@
 ## Overview of Analysis
     I began the analysis of the data by downloading the excel file and reviewing the columns and rows within the workbook labeled as 2017 and 2018 respectively to have a better understanding of the information I was provided with.  By working through the module, I was able to make updates to an initial macro created called "AllStocksAnalysis." Each step of the module provided a different part to add to the macro resulting in a finished macro that was able to run based upon declared variables, for loops and if/then statements.   By defining variables and creating for loops and if/then statements The initial macro provided an output of data based upon which year you select which is done using the code shown below.  
 
-    ```
+``` 
 
-     YearValue = InputBox("What year would you like to run the analysis on?")
+     YearValue = InputBox("What year would you like to run the analysis on?") 
 
-     ```
+``` 
 
     This code creates the input box which asks the user what year they would like to run the analysis on as displayed here:
 
 
-     ![InputBox](InputBox.png)
+   ![InputBox](InputBox.png)
         
 
     After inputting the year I was able to see the total daily volume and return for each of the stocks ("tickers").  The return was highlighted green or red dependent upon the percentage of return and whether it was a positive or negative one.  The purpose of the analysis was ultimately to be able to provide a recommendation to invest in a certain stock or stocks based on their volume and rate of return, with those with a higher percentage and volume being the better options to choose.  The refactoring of the code provided us with a different method of achieving the same output but with slightly different and more specific definitions which resulted in a different but faster run time than the initial macro did.  
@@ -29,26 +29,26 @@
 ## Results
     The overall results of the data were very different when comparing 2017 to 2018.  It can be noted that there is more positive return in the stocks analyzed in 2017 vs. 2018.  The total daily volumes are much higher as well.  There is also only one stock "ticker" that returned a negative return at 7.2% compared to 2018 where almost all of the tickers performed poorly with a negative return.  DQ, the stock that Steve and his parents were most interested in investing in throughout the module, provided the highest rate of return for 2017 but the lowest total daily volume of all the tickers.  The outputs of each year can be seen below.
 
-    https://github.com/lem1123/stock-analysis/blob/b8ef3cd22e59e3189b3033d2f6b99465e00c1465/2017outputdata.png 
+  ![2017outputdata](2017outputdata.png)   
     
 
-    https://github.com/lem1123/stock-analysis/blob/b8ef3cd22e59e3189b3033d2f6b99465e00c1465/2018outputdata.png
+  ![2018outputdata](2018outputdata.png)
     
 
     With regard to the execution time of the code prior to refactoring, I noted that the run time for both 2017 and 2018 was about the same at approximately .5 seconds as shown in the images below.
 
-    https://github.com/lem1123/stock-analysis/blob/b8ef3cd22e59e3189b3033d2f6b99465e00c1465/2017runtimebeforerefactoring.png
+   ![2017runtimebeforerefactoring](2017runtimebeforerefactoring.png)
     
 
-    https://github.com/lem1123/stock-analysis/blob/b8ef3cd22e59e3189b3033d2f6b99465e00c1465/2018runtimebeforerefactoring.png 
+   ![2018runtimebeforerefactoring](2018runtimebeforerefactoring.png) 
     
 
     When refactoring the macro, the run time increased dramatically for both 2017 and 2018.  As shown in the images below, it can be noted that by refactoring the code and making the macro more specific to our needs, we were able to cut down on the overall run time making it more efficient. 
 
-    https://github.com/lem1123/stock-analysis/blob/b8ef3cd22e59e3189b3033d2f6b99465e00c1465/Resources/VBA_Challenge_2017.png 
+   ![VBA_Challenge_2017](VBA_Challenge_2017.png) 
     
 
-    https://github.com/lem1123/stock-analysis/blob/b8ef3cd22e59e3189b3033d2f6b99465e00c1465/Resources/VBA_Challenge_2018.png 
+   ![VBA_Challenge_2018]( VBA_Challenge_2018.png) 
     
 
 ## Summary
