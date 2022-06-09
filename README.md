@@ -18,7 +18,7 @@
     This code creates the input box which asks the user what year they would like to run the analysis on as displayed here:
 
 
-    ![InputBox](InputBox.png) 
+    InputBox.png
     
 
     After inputting the year I was able to see the total daily volume and return for each of the stocks ("tickers").  The return was highlighted green or red dependent upon the percentage of return and whether it was a positive or negative one.  The purpose of the analysis was ultimately to be able to provide a recommendation to invest in a certain stock or stocks based on their volume and rate of return, with those with a higher percentage and volume being the better options to choose.  The refactoring of the code provided us with a different method of achieving the same output but with slightly different and more specific definitions which resulted in a different but faster run time than the initial macro did.  
