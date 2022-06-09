@@ -48,7 +48,7 @@
    ![VBA_Challenge_2017](VBA_Challenge_2017.png) 
     
 
-   ![VBA_Challenge_2018]( VBA_Challenge_2018.png) 
+   ![VBA_Challenge_2018](VBA_Challenge_2018.png)  
     
 
 ## Summary
