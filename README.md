@@ -45,10 +45,10 @@
 
     When refactoring the macro, the run time increased dramatically for both 2017 and 2018.  As shown in the images below, it can be noted that by refactoring the code and making the macro more specific to our needs, we were able to cut down on the overall run time making it more efficient. 
 
-  ![VBA_Challenge_2017](/resources/VBA_Challenge_2017.png)  
+   ![VBA_Challenge_2017](/resources/VBA_Challenge_2017.png)  
     
 
-  ![VBA_Challenge_2018](/resources/VBA_Challenge_2018.png)   
+   ![VBA_Challenge_2018](/resources/VBA_Challenge_2018.png)    
     
 
 ## Summary
